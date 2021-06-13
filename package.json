@@ -1,0 +1,22 @@
+{
+  "name": "app-sync-twitter-clone",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Test POC of a Twitter clone using AWS AppSync for GraphQL, AW Amplify, Vue, and TailwindCSS",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musayev-io/app-sync-twitter-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musayev-io/app-sync-twitter-clone/issues"
+  },
+  "homepage": "https://github.com/musayev-io/app-sync-twitter-clone#readme",
+  "devDependencies": {
+    "serverless-appsync-plugin": "^1.11.3"
+  }
+}
