@@ -1,22 +1,25 @@
 {
-  "name": "app-sync-twitter-clone",
+  "name": "appsyncmasterclass-backend",
   "private": true,
   "version": "1.0.0",
-  "description": "Test POC of a Twitter clone using AWS AppSync for GraphQL, AW Amplify, Vue, and TailwindCSS",
+  "description": "Backend for the AppSync Masterclass demo app",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "sls": "sls"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/musayev-io/app-sync-twitter-clone.git"
+    "url": "git+https://github.com/theburningmonk/appsyncmasterclass-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/musayev-io/app-sync-twitter-clone/issues"
+    "url": "https://github.com/theburningmonk/appsyncmasterclass-backend/issues"
   },
-  "homepage": "https://github.com/musayev-io/app-sync-twitter-clone#readme",
+  "homepage": "https://github.com/theburningmonk/appsyncmasterclass-backend#readme",
   "devDependencies": {
-    "serverless-appsync-plugin": "^1.11.3"
+    "serverless": "2.4.0",
+    "serverless-appsync-plugin": "^1.4.0"
   }
 }
